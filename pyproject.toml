@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "bwen-ai"
+version = "0.1.0"
+description = "A bot for the BWEN DAO"
+authors = ["QuantumWave155 <quantumwave155@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.7"
+langchain-openai = "0.2.3"
+langchain = "0.3.4"
+langchain-chroma = "0.1.4"
+langchain-unstructured = "0.1.5"
+langchain-community = "0.3.3"
+unstructured = "0.16.1"
+libmagic = "1.0"
+python-dotenv = "1.0.1"
+sqlalchemy = "2.0.36"
+chainlit = "1.3.1"
+discord = "2.3.2"
+langgraph = "0.2.39"
+pinecone = "^5.3.1"
+langchain-pinecone = "^0.2.0"
+
+[tool.poetry.scripts]
+start = "chainlit run app.main.py"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
