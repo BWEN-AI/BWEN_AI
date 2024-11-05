@@ -1,0 +1,13 @@
+The conviction voting component sits between the augmented bonding curve, where voting tokens are acquired, and the Giveth proposal engine, which includes concrete milestones and fund allocation for an approved proposal, once sufficient support has been gathered to activate the triggering function.
+
+A diagram of a cyber-physical common good, built from the Commons Stack library. The Conviction Voting component of the system is displayed in purple, between the augmented bonding curve (black) and the Giveth proposal engine (green). This diagram is explored further in this video.
+
+This design of the Conviction Voting module is simulated and tested in cadCAD, one of the first times token engineering design tools are applied to model system behavior in a complex governance process. There are many more details to explore in an upcoming in-depth article—stay tuned!
+
+Where to go from here?
+
+This basic implementation of conviction voting is an MVP and is by no means a complete feature mechanism, nor do we suggest that it is appropriate for use in all scenarios. The design space is wide open for alternative governance mechanisms that mimic how decisions are made in natural systems, and we are excited to explore these design options through future enhancements and additions to the Commons Stack component library, pending funding for our building phase. Other additions to the conviction voting mechanism could include delegations via liquid democracy and reducing the impact of wealthy participants through quadratic voting or an equivalent mechanism, although these features will depend on upcoming self-sovereign identity solutions such as iden3.
+
+Continuous voting mechanisms like Conviction Voting offer massive improvements over traditional on-chain voting forms, and we are excited to see where the exploration of this design space ends. You can help make this research a reality by funding the building phase of the Commons Stack, so we can all benefit from an open-source governance module library to fork and use by projects as needed. We do not believe there is a one-size-fits-all answer to the governance question—instead, we aim to facilitate an open ecosystem of components so that projects can choose what works best for them. We want to see experimentation proliferate in all directions, using robust crypto-economic primitives, and allow Darwinian market processes to decide what works best!
+
+#Governance 

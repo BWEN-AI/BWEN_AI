@@ -1,0 +1,5 @@
+Fan ownership of sports clubs is already well established, and fan armies are becoming more powerful every day, as evidenced by the recent expedition of the [European Super League](https://www.taylorwessing.com/fr/insights-and-events/insights/2021/05/esg-lessons-from-the-european-super-leagues-collapse). Networks of talent scouts around the world could collaborate as DAOs to fund promising players in exchange for a percentage of their future earnings. If fan-owned clubs took on this responsibility themselves, they could vertically integrate all scouts, agents, coaches, and managers, all funded and managed from a single DAO—the ultimate "fantasy league."
+
+This model will likely extend to all sorts of industries: music fans will become owners of record labels and vote on new protégés, patrons will animate biennales, and theater companies will vote on new productions.
+
+#DAO 

@@ -1,0 +1,17 @@
+### Skin-in-the-game in Day-to-Day Voting
+
+But the above only works to guard against truly extreme decisions. What about smaller-scale heists that unfairly benefit attackers manipulating the governance economy but aren't severe enough to be ruinous? And what about, in the absence of any attackers, the simple laziness and the fact that governance based on coin voting exerts no selection pressure for higher quality opinions?
+
+The most popular solution to this kind of problem is **futarchy**, introduced by Robin Hanson in the early 2000s. Votes become bets: to vote for a proposal, you are betting that the proposal will lead to a good outcome, and to vote against the proposal, you are betting that the proposal will lead to a bad outcome. Futarchy introduces individual accountability for obvious reasons: if you make good bets, you earn more coins, and if you make bad bets, you lose your coins.
+
+The "pure" futarchy has proven difficult to implement because, in practice, objective functions are very difficult to define (it's not just the price of coins that people want!), but various hybrid forms of futarchy may work quite well. Examples of hybrid futarchy include:
+
+- **Votes as Buy Orders**: see the [post on ethresear.ch](https://ethresear.ch/t/votes-as-buy-orders-a-new-type-of-hybrid-coin-voting-futarchy/10305). Voting for a proposal requires placing an executable buy order to purchase additional tokens at a price slightly below the current token price. This ensures that if a terrible decision succeeds, those who supported it can be forced to buy back their opponents, but it also ensures that in more "normal" decisions, token holders have more latitude to decide based on non-price criteria if they wish.
+
+- **Retroactive Public Goods Funding**: see [the post with the Optimism team](https://medium.com/ethereum-optimism/retroactive-public-goods-funding-33c9b7d00f0c). Public goods are funded through a voting mechanism **retroactively**, after a desirable outcome has already been achieved. Users can purchase **project tokens** to fund their project while expressing their trust in it; buyers of project tokens receive a share of the reward if the project is deemed to have achieved a desired objective.
+
+- **Escalation Games**: see [Augur](https://augur.net/blog/v2-resolution/) and [Kleros](https://ipfs.kleros.io/ipfs/QmZeV32S2VoyUnqJsRRCh75F1fP2AeomVq2Ury2fTt9V4z/Dispute-Resolution-Kleros.pdf). The alignment of values on lower-level decisions is incentivized by the ability to appeal to a higher-level process that requires more effort but is more precise; voters whose votes align with the final decision are rewarded.
+
+In the last two cases, hybrid futarchy relies on some form of non-futarchy governance to measure against the objective function or serve as a final recourse dispute layer. However, this non-futarchy governance has several advantages that it lacks if used directly: (i) it activates later, thus having access to more information, (ii) it is used less frequently, so it can expend less effort, and (iii) each use of it has greater consequences, making it more acceptable to rely solely on forking to align incentives for this last layer.
+
+#Governance 

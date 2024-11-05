@@ -1,0 +1,19 @@
+[Governing and Governance Tokens](https://formation.alyra.fr/products/finance-decentralisee-2/categories/2148766152)
+
+Voting can occur directly on the blockchain or via a Snapshot or a forum where voting is possible. Most of the time, it is preferable for a vote to be signed by a wallet to ensure and easily verify that the vote was indeed cast by a token holder.
+
+There are different concepts for voting depending on the tokens involved:
+
+- Some protocols consider that one token equals one vote, allowing voting on any proposal simply by holding these tokens in a wallet.
+- Other protocols, like Curve, require that tokens be locked before a user can vote, demonstrating the user's time and financial investment in the protocol. With Curve, locking tokens (for a period of 7 days to 4 years) in the form of veCRV grants voting rights, whereas simple CRV holders do not have this right, thus only allowing those who are invested in the protocol to vote on various features.
+
+It's also worth noting that the understanding of governance proposals is sometimes weak, which can explain the low participation rates in governance votes. Understanding a proposal requires a solid grasp of the DeFi ecosystem, the various actions the protocol can take, and the synergies with other protocols. For instance, to vote on a proposal suggesting a synergy between Protocol A and Protocol B, it is crucial to have a thorough understanding of the activities of both protocols to grasp the synergies that can be established. This understanding may discourage holders who are only speculating and are not particularly interested in the governance of the protocol, even though such governance will impact the price of tokens and enable a direct appreciation of the token's price over time.
+
+In addition to this overarching understanding of the ecosystem, it will be necessary to comprehend the proposals and how the protocol will be improved by them, both in terms of the proposal itself and its added value, as well as the code, to ensure that the proposal is well-coded and does not present security vulnerabilities once developed. Typically, Genesis teams guide the proposals and facilitate their implementation, both in terms of formulating proposals and creating the code itself and its integration into the rest of the protocol's code, as well as regarding the synergies that the proposal could generate if there are interactions that lead multiple protocols to collaborate.
+
+One last aspect to address is that governance protocols often resort to rewards to incentivize users to vote. This method is probably utilized because decentralized governance is a recent concept that has not yet become common practice. Protocols offer incentives that can take several forms:
+
+- Rewards for providing liquidity and promoting the protocol, as was the case with Aave's or Compound's liquidity mining during DeFi Summer. This token distribution thanks users for utilizing the protocols while also distributing tokens to the widest audience possible to ensure maximum decentralization.
+- Rewards in the form of Grants for those who create and add value to the protocols. A person who proposes significant improvements and takes the time to write the proposal and code it could receive governance token rewards from the protocol in exchange for their involvement. Grants encourage creation, building, and a protocol that thrives and advances rapidly.
+- Rewards for the security of the protocol: for example, the Safety Module of Aave allows users to stake their governance tokens (AAVE), thereby protecting the protocol in case of serious issues. These users put their governance tokens at the protocol's disposal in exchange for rewards, but they also take the risk for users. They could lose up to 30% of their tokens to protect users from a particular problem that might occur within the protocol.
+#Governance 

@@ -1,0 +1,11 @@
+A unique case of a major hack occurred in May 2016 when a decentralized autonomous organization, TheDAO, created to raise funds in ethers to finance projects on EVM, successfully raised the equivalent of 150 million euros. On June 17, 2016, a vulnerability in TheDAO's code was exploited by hackers who diverted nearly a third of the funds raised by the project. In response to this situation, the majority of the Ethereum community decided to reprogram the blockchain to reverse the effects of the hack and re-credit the investment fund with the stolen funds in order to eventually reimburse the investors harmed by this malicious hacking.
+
+However, about 15% of ether miners refused to implement this change, which ultimately affected only TheDAO platform and not the Ethereum blockchain, which remained perfectly secure. Arguing that code is law and that going back on it was at odds with the decentralization philosophy championed by Bitcoin, a minority of miners executed a hard fork to separate from the Ethereum network. This dissent led, similar to Bitcoin and Bitcoin Cash, to the creation of two distinct blockchains: one official, Ethereum (ETH), supported by developers, and the other unofficial, with the currency being classic ether (ETC).
+
+This incident highlights the importance of programming a smart contract to prevent vulnerabilities in the code from being exploited. Furthermore, this split between ETH and ETC reinforces once again the diversity as well as the anarchic nature of the organization within the crypto sphere. If a part of a blockchain community wishes to pursue its own path, it merely needs to execute a hard fork, a bifurcation from the original chain to create another chain.
+
+The minority of miners remaining on ETC exhibits more meritocratic values that are stronger regarding decentralized governance, as they believe that decentralization prevents issues such as corruption, irresponsibility, nepotism, inefficiency, and stagnation.
+
+Thus, they prefer to relinquish control of a formalized central base by not allowing third-party interventions in an incident like TheDAO. This is a debate of norms and values (Noël-Lemaitre, 2016), leading the stakeholders down different paths.
+
+#DAO 

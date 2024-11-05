@@ -1,0 +1,39 @@
+## **Decentralization Models in Practice**
+
+[Let’s now look at how the technical, economic, and legal framework](https://future-com.translate.goog/web3-decentralization-models-framework-principles-how-to/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr&_x_tr_pto=wapp#section--2) I shared earlier applies to several different models of decentralization in practice. These models range from "complete" decentralization (where every component of a system is decentralized) to "open" decentralization (where independent third parties all participate in a shared decentralized system). I have also included models for specific applications of open decentralization, such as NFT projects and tokenization protocols.
+
+### **Complete Decentralization: How to Decentralize DeFi and Other Simple Applications**
+
+Complete decentralization is currently the most common decentralization model within the DeFi sector. As shown in the images below, transitioning from a centralized model (as in web2) to a decentralized model (as in web3) involves:
+
+- Deploying an **open-source smart contract protocol** on a decentralized, programmable blockchain network to form the core infrastructure layer of the web3 system—the smart contract protocol provides an execution layer for all backend components that can be deployed on-chain (i.e., payments, messaging, etc.);
+- Operating a **“client” layer** in a decentralized manner: the client represents all software in the system that operates off-chain and acts as a gateway to the smart contract protocol (clients can range from simple front-end websites to complex applications);
+- Adding **distributions** of digital assets—this could be an airdrop for contributors and consumers; allocations to insiders (employees, advisors, and shareholders of the development company); the allocation of digital assets to an explicit incentive scheme (such as liquidity mining in DeFi); and the formation of a treasury controlled by the DAO, to be used for any future incentives;
+- Launching the **DAO governance** of the smart contract protocol and the DAO treasury; and
+- Ensuring that **users own and retain their own data** (currently a huge conflict in web2 systems).
+
+_This complete decentralization model assumes that the web3 system is a new smart contract protocol deployed on an existing programmable blockchain network. “Users” here refers to both consumers and contributors._
+
+For web3 systems using this model, the decentralization of the **blockchain network** and the **smart contract protocol** is primarily achieved through the **technical decentralization** of these layers, and by launching **decentralized governance**in the form of a DAO that takes control of the smart contract protocol from the development company that created the system. Deploying the smart contract protocol on a public blockchain and launching its DAO leads to transparency as well as greater safety and security for the system, meaning that no individual or group controls the system.
+
+The decentralization of the **client layer** then occurs in various ways. Within DeFi, where most clients are just simple front-end websites providing a gateway to the underlying smart contract protocol (i.e., allowing users to interact with the protocol), most development companies make their client/website open source and host it on a decentralized file system (like IPFS). With the open-source client/website, independent third parties often end up hosting their own clients/websites providing access to the same underlying protocol. Furthermore, independent third parties often create gateways to the protocol in their own aggregators and dashboards. This means that gateways to the protocol are always available, regardless of whether the development company’s client/website is maintained.
+
+The above steps primarily eliminate the potential for information asymmetries—the impetus for much of U.S. securities law—because (1) information about the protocol and its operations is transparently available on a public blockchain ledger, and (2) the management efforts of the development company that launched the protocol are no longer essential to the protocol's success or failure.
+
+And since the blockchain and smart contract layers are operational and not controlled by any group or entity, the system has complete redundancy and is no longer dependent on the development company. DeFi primitives are a great example, as they require little to no ongoing development to continue providing utility to users. Consequently, protocols implementing this decentralization model could be considered legally decentralized, even without a fully functioning decentralized economy.
+
+#### Limitations of Complete Decentralization
+
+While the complete decentralization model has been successfully used in DeFi, its simplicity may render it unsuitable for more complex web3 systems. Builders need to be aware of and plan for these factors, which can introduce complexity:
+
+**Complex Clientele.** Decentralizing clients within DeFi is quite simple given their relative simplicity—very few incentives are needed to get third parties to create independent and simple gateways (primarily in the form of websites) to such protocols. However, as web3 products and services become increasingly complex, with resource-intensive client layers built above the underlying smart contract protocols, client decentralization becomes more complicated. For example, consider the difference in complexity between the clients/websites providing access to the [Uniswap](https://translate.google.com/website?sl=en&tl=fr&hl=fr&client=webapp&u=http://uniswap.org/) and [Compound](https://future-com.translate.goog/web3-decentralization-models-framework-principles-how-to/blank?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr&_x_tr_pto=wapp) protocols compared to hypothetical web3 social media clients that would need the full functionality of web2 applications like Twitter and Instagram. Such complexity could reduce the pool of third parties willing to create and/or host alternative clients or integrate access to the protocol layer into their own systems without explicit incentives.
+
+**Significant Improvements Required.** Similarly, systems that require significant improvements after the launch of digital assets may struggle to make those improvements in a decentralized manner. For example, in DeFi, many protocols have struggled to successfully use explicit symbolic incentives to drive significant ongoing development of their smart contract protocols.
+
+**Ongoing Operations.** Development companies may intend to undertake significant operations to enhance their web3 system after the launch of their digital asset. This could undermine the decentralization of the system if additional value contributions do not also come from independent third parties. Moreover, since governance tokens alone generally confer no rights to future products and services that a development company may produce, development companies must ensure that they do not give token holders the impression that such a relationship exists.
+
+**Retention of Exclusive Rights.** If the original development company (or others) retains exclusive rights to any intellectual property used in the system, this may undermine the complete decentralization of the system. For example, if developers of complex clients for web3 social media want to keep those clients proprietary, complete decentralization may be unfeasible.
+
+Each of these limitations can be overcome by web3 systems capable of driving significant economic decentralization, creating **functional decentralized economies**. If a decentralized group of developers, contributors, and consumers creates and receives significant value—thus diluting the importance of the original developer to the overall system—it transitions the system from a **complete decentralization model** to an **open decentralization model**.
+
+#Governance 

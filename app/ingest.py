@@ -18,7 +18,10 @@ def create_vectorstore():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
 
-    embeddings = OpenAIEmbeddings(api_key=os.environ.get("OPENAI_API_KEY"))
+    embeddings = OpenAIEmbeddings(
+        api_key=os.environ.get("OPENAI_API_KEY"),
+        model="text-embedding-3-large",
+    )
 
     print("Creating new vectorstore...")
     loader = ObsidianLoader(os.path.join(project_root, "bwen_kb"))

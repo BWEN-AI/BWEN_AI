@@ -1,0 +1,9 @@
+To start a DAO (Decentralized Autonomous Organization), you will first need to define the rules and objectives of your DAO using a programming language like Solidity to write a smart contract. This smart contract is then deployed on a blockchain like Ethereum.
+
+Once the smart contract is deployed, users can create accounts on the blockchain and send transactions to become shareholders in the DAO by purchasing tokens. Shareholders can then vote on proposals and decisions that affect the DAO.
+
+It’s important to note that setting up a DAO requires a solid understanding of blockchain and smart contract concepts, so having technical skills is recommended for a successful setup. There are also online platforms available that allow you to create a DAO without technical expertise, though these platforms may have limitations and offer less flexibility.
+
+Aragon is an online platform that enables users to easily create a DAO on the Ethereum blockchain. It provides a user-friendly interface for deploying and managing smart contracts that allow users to create tokens and use them to vote on decisions affecting the DAO. It also helps manage users, roles, and permissions. Aragon allows for the creation of DAOs for various purposes, such as businesses, communities, projects, and non-profits. It also offers a range of predefined templates for common types of DAOs, such as variable capital companies and non-profit foundations, to simplify the DAO creation process. However, while Aragon facilitates DAO creation, it’s crucial to understand the legal and regulatory risks and implications associated with using a DAO.
+
+#DAO 

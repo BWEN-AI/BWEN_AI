@@ -1,0 +1,15 @@
+Undoubtedly inspired by Francis Bacon's phrase from 1597, "knowledge is power," Foucault writes, "One must recognize that power produces knowledge; that power and knowledge directly imply one another; that there are no power relations without the correlative constitution of a field of knowledge, nor any knowledge that does not presuppose and constitute power relations at the same time" (Foucault, 1993, p. 97). 
+
+The protection of our data thus becomes crucial.
+
+This is how the cypherpunk community—an invented portmanteau by Jude Milhon in Berkeley in 1992 combining "cipher" from cryptography with "punk" from the countercultural movement—began working on liberating cyberspace through cryptography: a collection of techniques aimed at encrypting information to ensure its confidentiality (Le Robert). Although the cypherpunk movement is highly eclectic, the community supports an ideal of a freer, decentralized society where technology allows individuals to interact and communicate without the threat of intimidation or reprisal from states or other institutions, whether public or private (De Filippi, 2018, p. 7).
+
+Cryptology has become an essential tool for protecting privacy and empowering individuals against third-party actors who might exploit information asymmetry. This revolution led Tim C. May to write in his renowned Crypto Anarchist Manifesto: "Just as the printing technology altered and reduced the power of medieval guilds and social power structures, cryptologic methods fundamentally alter the nature of government interference and corporate power in economic transactions. Combined with emerging information markets, crypto-anarchy will create a liquid market for anything that can be expressed in words and images" (May, 1992).
+
+This shift represents a digital transition from Web 2.0 to Web 3.0. As a reminder, the World Wide Web (WWW) emerged in 1991. Initially, its version 1.0 was simply an information portal where users passively received information without any ability to comment or react.
+
+From the 2000s, however, Web 2.0 enabled not only information sharing but also the creation, participation, and collaboration in the content development of the WWW through innovative interfaces and P2P applications such as Facebook, Wiki, and YouTube. Finally, Web 3.0, also known as the Internet of Value, introduces a digital scarcity that does not exist within Web 2.0, where all content could be duplicated. 
+
+As a result, where a trusted third party was previously required for secure value exchanges (banks for money, notaries for property titles, auctioneers for art, etc.), it is now possible to conduct these transactions with equal or superior security by eliminating intermediaries. This is achieved through various protocols that combine the WWW's peer-to-peer network with blockchain technology, asymmetric cryptography, and decentralized consensus mechanisms that ensure the veracity of information recorded in a digital ledger.
+
+#Philosophy

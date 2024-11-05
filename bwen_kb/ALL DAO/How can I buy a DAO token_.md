@@ -1,0 +1,3 @@
+The simplest way is to obtain $ETH via [LocalCryptos](https://localcryptos.com/Ethereum/), [Coinbase](https://www.coinbase.com/), or [Binance](https://www.binance.com/), send it to a Web3 wallet such as [Metamask](https://metamask.io/), [Frame](https://frame.sh/), or [Argent](https://www.argent.xyz/), and then swap it for the DAO token on [Uniswap](https://app.uniswap.org/). Note: It is recommended to copy the token's contract address from [Coinmarketcap](https://coinmarketcap.com/) and paste it into [Uniswap](https://app.uniswap.org/) rather than searching by ticker symbol like “ETH.” This is because two different tokens can use the same ticker.
+
+#DAO 

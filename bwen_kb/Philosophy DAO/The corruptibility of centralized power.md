@@ -1,0 +1,11 @@
+Starting from the premise that power, when concentrated in the hands of a limited group, is inevitably subject to corruption, **libertarians, in contrast to libertarians, aim to return shared power to human collectives**. Unlike the libertarian aim to dismantle central power to increase individual freedom, libertarians seek to dismantle centralized authority to enhance collective freedom, advocating for a commons-based economy where the governance of shared resources is paramount (Ostrom, 2010).
+
+Blockchain technologies underpinning the internet of value provide the means to realize this governance at all scales, from the macropolitics required to address global ecological challenges to the micropolitics shaping organizational structures in work and business. Indeed, web 3.0 tools pave the way for an efficient organizational anarchy through novel consensus mechanisms that enable decentralized governance by collectives.
+
+This algorithmic governance, programmed by collective efforts, acts as a powerful mechanism for re-standardizing practices within companies. This enables systemic decisions to be made without a formally identified hierarchical authority, while allowing authority to freely circulate among individuals or groups as needed.
+
+This consensual, fluid circulation of authority among individuals based on work needs allows workers to synchronize with each other’s real activities without suffering from arbitrary decisions that might be misaligned with their shared understanding. Thus, the collective as a whole, formed by inter-connected parts and inter-autonomous individuals working together, achieves a transindividualization: “a social evolution that individuates into a collective unity” (Simondon, 2002).
+
+Through this metanoia, the collective gains the means to re-standardize and adopt better-aligned norms, resonant with the libertarian praxis of continuous self-improvement. By placing communication at the heart of work, collective intelligence is enriched, enabling systemic or even holistic decisions far more comprehensive than those made by a limited group with necessarily constrained rationality.
+
+#Philosophy

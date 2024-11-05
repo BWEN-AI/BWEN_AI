@@ -1,0 +1,17 @@
+### Problems with Token Voting Even in the Absence of Attackers
+
+The problems related to token voting, even without explicit attackers, are becoming better understood (for example, see [this recent article from DappRadar and Monday Capital](https://translate.google.com/website?sl=en&tl=fr&hl=fr&client=webapp&u=https://dappradar.com/blog/decentralized-governance-in-defi-examples-and-pitfalls)), and they mainly fall into several categories:
+
+- **Small groups of wealthy participants ("whales") are more successful in executing decisions than large groups of smallholders.** This is due to the tragedy of the commons among smallholders: each smallholder has only an insignificant influence on the outcome, and thus they have little incentive to be diligent and vote. Even if there are rewards for voting, there is little incentive to research and carefully consider what they are voting for.
+- **Token voting governance empowers token holders and the interests of token holders at the expense of other parts of the community:** protocol communities are composed of various constituencies that have many different values, visions, and objectives. Token voting, however, only empowers one constituency (the token holders, particularly the wealthy), and leads to an overemphasis on the goal of driving up token prices, even if it involves harmful rent-seeking.
+- **Conflict of interest issues:** granting voting rights to one constituency (token holders), particularly giving too much power to the wealthy actors in that constituency, risks exposing them to conflicts of interest within that particular elite (for example, investment funds or holders who also hold tokens from other DeFi platforms that interact with the platform in question).
+
+A major type of strategy is attempted to solve the first problem (and thus also mitigate the third problem): **delegation**. Smallholders do not have to personally judge each decision; instead, they can delegate to trusted community members. This is an honorable and worthy experiment; we will see how much delegation can alleviate the problem.
+
+The problem of token holder centrism, on the other hand, is much more difficult: token holder centrism is inherently embedded in a system where token holder votes are the only input. The misunderstanding that token holder centrism is a goal rather than a bug is already causing confusion and harm; an (largely excellent) article [discussing blockchain publicgoods](https://translate.google.com/website?sl=en&tl=fr&hl=fr&client=webapp&u=https://otherinter.net/research/positive-sum-worlds/) complains:
+
+Can cryptographic protocols be considered public goods if ownership is concentrated in the hands of a few whales? Familiarly, these market primitives are sometimes described as "public infrastructure," but if blockchains serve a "public" today, it is primarily that of decentralized finance. Fundamentally, these token holders share only one common concern: the price.
+
+The complaint is misguided; blockchains serve a much richer and broader public than DeFi token holders. But our governance systems based on token voting completely fail to capture this, and it seems difficult to create a governance system that captures this richness without a more fundamental paradigm shift.
+
+#Governance 

@@ -1,0 +1,9 @@
+**To counteract this model of toxic governance, reimagining organizations and consensus systems, blockchain technology has created a multitude of alternative possibilities to find “good” governance models.**
+
+“Good governance should no longer be understood as an abstract reference point from which it would be possible to statically evaluate the quality of arrangements put in place at a given time by a given company but as a process in which conflict, to play its driving role, must be able to express itself. […] Good governance lies, therefore, not in the quality of any organizational architecture devoid of political dimension, but in the quality of an entrepreneurial democracy that remains to be invented” (Bessire, 2000, p. 22).
+
+This entrepreneurial democracy Bessire calls for exists today across various blockchain protocols, which offer governance established by consensus algorithms. It's important to clarify that this governance is not necessarily a reproduction of governance “by numbers,” which Alain Supiot critiques as a cybernetic governance where “humans do not act; they react to signals they receive from information systems in which they are embedded” (Supiot, 2015, p. 131).
+
+On the contrary, in the governance proposed here, it is indeed humans who act. Consensus is at the heart of blockchain governance, with each protocol establishing an undeniable agreement among different network participants while preventing malicious system exploitation. The first consensus mechanism in the crypto space, as mentioned in section 1.1, is Proof of Work (PoW). Many cryptocurrencies, including Bitcoin and Ethereum, use PoW to reach a global consensus on all transactions. However, due to PoW’s high energy demands, alternatives like Proof of Stake (PoS), which Ethereum is set to adopt in June 2022, have emerged.
+
+#Philosophy

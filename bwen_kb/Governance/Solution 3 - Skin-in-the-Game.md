@@ -1,0 +1,11 @@
+## Solution 3: Skin-in-the-Game
+
+The third approach involves addressing the tragedy of the commons by modifying the rules of voting itself. **Coin voting fails because while voters are** _**collectively**_ **responsible for their decisions (if everyone votes for a terrible decision, everyone's coins go to zero), each voter is not** _**individually**_ **accountable (if a terrible decision occurs, those who supported it do not suffer any more than those who opposed it). Can we create a voting system that changes this dynamic and makes voters individually, not just collectively, accountable for their decisions?**
+
+The forkability of a protocol is arguably a skin-in-the-game strategy, especially if forks are executed in the same way that Hive forked from Steem. In the case where a ruinous governance decision passes and cannot be opposed within the protocol, users can take it upon themselves to fork. Moreover, in this fork, the coins that voted for the bad decision could be destroyed.
+
+This may sound harsh and might even seem like a violation of an implicit norm that "the immutability of the ledger" should remain sacred when forking a coin. However, the idea seems much more reasonable when viewed from another angle. We maintain the concept of a strong firewall where individual coin balances are supposed to be inviolable, _but we only apply this protection to coins that do not participate in governance_. If you participate in governance, even indirectly by placing your coins in a wrapping mechanism, you can be held accountable for the costs of your actions.
+
+**This creates individual accountability: if an attack occurs and your coins vote for the attack, then your coins are destroyed.** If your coins do not vote for the attack, your coins are safe. The responsibility cascades upward: if you place your coins in a wrapper contract and the wrapper contract votes for an attack, the balance of the wrapper contract is wiped out, and you thus lose your coins. If an attacker borrows XYZ from a DeFi lending platform, when the platform forks, anyone who lent XYZ loses (note that this makes lending governance tokens generally very risky; this is an intended consequence).
+
+#Governance 
