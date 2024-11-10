@@ -75,4 +75,22 @@ A: Updates can be found on Bwen's official website and across various social med
 
 platforms, where the community can stay informed about progress and initiatives.
 
+17. Q: What is the Twitter handle?  
+A: [X / Twitter](https://x.com/BabyWen_CTO)
+
+18. Q: What is the Telegram link?  
+A: [TG / Telegram](https://t.me/BabyWenCoins)
+
+19. Q: What is the TikTok handle?  
+A: [Tiktok](https://www.tiktok.com/@babywendao)
+
+20. Q: Where can I find the Dexscrenner link?  
+A: [Dexscrenner](https://dexscreener.com/solana/4ujzg9dgpne4fy1clvqx8n13qfupptkojlpxfpdaxrlq)
+
+21. Q: What is the Raydium swap link?  
+A: [Raydium](https://raydium.io/swap/?inputMint=sol&outputMint=7pmuGLLYdJ2mc7chZwEJAaxuWALAYqaVqbUwzzyHcA7D)
+
+22. Q: What is the contract address (CA)?  
+A: 7pmuGLLYdJ2mc7chZwEJAaxuWALAYqaVqbUwzzyHcA7D
+
 #BWEN

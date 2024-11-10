@@ -18,7 +18,7 @@ def setup_workflow():
     retriever_tool = create_retriever_tool(
         vectorstore.as_retriever(),
         name="search",
-        description="Search information about a specific topic like BWEN, DAO, etc.",
+        description="Retrieve information on topics like BWEN, DAO, and more. This tool can also answer questions about the BWEN AI Agent, including its origins and team members.",
     )
 
     tools = [retriever_tool, get_crypto_market_data]
