@@ -25,7 +25,7 @@ def setup_workflow():
     tools = [retriever_tool, get_crypto_market_data, get_bwen_market_data]
     tool_node = ToolNode(tools)
 
-    model = ChatOpenAI(model="gpt-4o-mini").bind_tools(tools)
+    model = ChatOpenAI(model="gpt-4o").bind_tools(tools)
 
     def should_continue(state: MessagesState) -> Literal["tools", END]:
         messages = state["messages"]
