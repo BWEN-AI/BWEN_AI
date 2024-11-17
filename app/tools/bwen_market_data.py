@@ -5,7 +5,7 @@ import requests
 @tool
 def get_bwen_market_data():
     """
-    Get cryptocurrency market info about BWEN such as market cap or price using dexscreener API.
+    Get cryptocurrency market data about BWEN such as market cap or price using dexscreener API.
     You will also use this to retrieve the social media links.
     """
     try:
