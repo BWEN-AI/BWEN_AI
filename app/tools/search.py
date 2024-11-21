@@ -1,5 +1,4 @@
 from langchain_core.tools import tool
-from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
 from pinecone import Pinecone
 import os
@@ -8,7 +7,8 @@ from langchain_pinecone import PineconeVectorStore
 
 load_dotenv()
 
-def get_vectorstore() -> Chroma:
+
+def get_vectorstore() -> PineconeVectorStore:
     """Get the vectorstore."""
     pinecone_api_key = os.environ.get("PINECONE_API_KEY")
     pc = Pinecone(api_key=pinecone_api_key)
@@ -21,5 +21,6 @@ def get_vectorstore() -> Chroma:
 
     print("Connecting to Pinecone vectorstore...")
     return PineconeVectorStore(index_name=index_name, embedding=embedding)
+
 
 vectorstore = get_vectorstore()

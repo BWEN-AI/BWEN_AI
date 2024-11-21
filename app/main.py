@@ -23,6 +23,4 @@ async def on_message(msg: cl.Message):
     message_history = cl.user_session.get("message_history")
     
     response_content, updated_history = await handle_message(msg, app, message_history)
-    
     cl.user_session.set("message_history", updated_history)
-    await cl.Message(content=response_content).send()

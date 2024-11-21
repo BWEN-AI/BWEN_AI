@@ -9,6 +9,7 @@ from tools.crypto_prices import get_crypto_market_data
 from langchain.tools.retriever import create_retriever_tool
 from tools.bwen_market_data import get_bwen_market_data
 from config.prompts import BABY_WEN_SYSTEM_PROMPT
+from langchain_core.runnables import RunnableConfig
 import logging
 
 logger = logging.getLogger(__name__)
@@ -25,20 +26,24 @@ def setup_workflow():
     tools = [retriever_tool, get_crypto_market_data, get_bwen_market_data]
     tool_node = ToolNode(tools)
 
-    model = ChatOpenAI(model="gpt-4o").bind_tools(tools)
+    model = ChatOpenAI(
+        model="gpt-4o",
+        temperature="0.2",
+        streaming=True
+    ).bind_tools(tools)
 
     def should_continue(state: MessagesState) -> Literal["tools", END]:
         messages = state["messages"]
         last_message = messages[-1]
         return "tools" if last_message.tool_calls else END
 
-    def call_model(state: MessagesState):
+    def call_model(state: MessagesState, config: RunnableConfig):
         messages = state["messages"]
         if not any(msg.type == "system" for msg in messages):
             messages = [SystemMessage(content=BABY_WEN_SYSTEM_PROMPT)] + messages
 
         logger.info(f"Sending request to OpenAI with messages: {messages}")
-        response = model.invoke(messages)
+        response = model.invoke(messages, config=config)
         logger.info(f"Model response: {response}")
         return {"messages": [response]}
 
