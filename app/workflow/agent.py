@@ -28,7 +28,7 @@ def setup_workflow():
 
     model = ChatOpenAI(
         model="gpt-4o",
-        temperature="0.2",
+        temperature=0.2,
         streaming=True
     ).bind_tools(tools)
 
