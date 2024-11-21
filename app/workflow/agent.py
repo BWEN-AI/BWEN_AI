@@ -20,7 +20,7 @@ def setup_workflow():
     retriever_tool = create_retriever_tool(
         vectorstore.as_retriever(),
         name="search",
-        description="Retrieve information on topics like BWEN, DAO, and more. This tool can also answer questions about the BWEN AI Agent, including its origins and team members.",
+        description="Retrieve information on any topics. You will call this tool when you need to answer a question that you do not know the answer to."
     )
 
     tools = [retriever_tool, get_crypto_market_data, get_bwen_market_data]
@@ -28,7 +28,6 @@ def setup_workflow():
 
     model = ChatOpenAI(
         model="gpt-4o",
-        temperature=0.2,
         streaming=True
     ).bind_tools(tools)
 

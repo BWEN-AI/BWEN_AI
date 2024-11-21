@@ -17,16 +17,17 @@ def get_crypto_market_data(token: str = "bitcoin", currency: str = "usd") -> str
         "sol": "solana",
         "matic": "polygon",
         "avax": "avalanche",
+        "xrp": "xrp",
     }
-    
+
     # Parse input
     parts = token.lower().split()
     token = parts[0]
     currency = parts[1].lower() if len(parts) > 1 else currency
-    
+
     # Map common names to IDs
     token = token_map.get(token, token)
-    
+
     try:
         response = requests.get(
             "https://api.coingecko.com/api/v3/coins/markets",
@@ -40,12 +41,12 @@ def get_crypto_market_data(token: str = "bitcoin", currency: str = "usd") -> str
                 "price_change_percentage": "24h,7d,30d"
             }
         )
-        
+
         if response.status_code == 200:
             data = response.json()
             if data:
                 coin = data[0]
-                
+
                 # Format price based on value
                 price = coin['current_price']
                 if price < 0.01:
@@ -54,7 +55,7 @@ def get_crypto_market_data(token: str = "bitcoin", currency: str = "usd") -> str
                     formatted_price = f"${price:.4f}"
                 else:
                     formatted_price = f"${price:,.2f}"
-                
+
                 result = f"""
 {coin['name']} ({coin['symbol'].upper()}) Market Data:
 Price: {formatted_price}
@@ -69,8 +70,8 @@ Market Cap: ${coin['market_cap']:,.0f}
 Circulating Supply: {coin['circulating_supply']:,.0f} {coin['symbol'].upper()}
 """
                 return result.strip()
-            
+
     except Exception as e:
         return f"Error fetching market data for {token}: {str(e)}"
-    
+
     return f"Could not find market data for {token}" 
